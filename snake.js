@@ -18,7 +18,7 @@ class Snake {
 		this.body.shift();
 		head.x += this.xdir;
 		head.y += this.ydir;
-		this.body.push(head);
+		this.body.push(head);//updates snake
 	}
 
 	grow() {
